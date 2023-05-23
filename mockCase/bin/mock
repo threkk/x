@@ -1,0 +1,8 @@
+#!/usr/bin/env -S deno run --ext=ts
+
+import { mockCase } from "../src/mockCase.ts";
+import { parse } from "../deps.ts";
+
+const params = parse(Deno.args);
+const output = mockCase(params._.join(" "));
+console.log(output);
