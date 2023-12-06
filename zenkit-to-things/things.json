@@ -1,0 +1,22 @@
+[
+  {
+    "type": "project",
+    "attributes": {
+      "title": "Go Shopping",
+      "items": [
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Bread"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Milk"
+          }
+        }
+      ]
+    }
+  }
+]

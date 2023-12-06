@@ -1,0 +1,452 @@
+{
+  "list": {
+    "id": 3004736,
+    "shortId": "-foyQiK-N0",
+    "uuid": "b131301b-9e1f-470c-b253-601f4527c77e",
+    "workspaceId": 1179255,
+    "backgroundId": null,
+    "name": "Default",
+    "itemName": null,
+    "itemNamePlural": null,
+    "description": "",
+    "iconClassNames": null,
+    "iconColor": null,
+    "iconBackgroundColor": null,
+    "imageId": null,
+    "coverImageId": null,
+    "isBuilding": false,
+    "isMigrating": false,
+    "sortOrder": 0,
+    "formulaTSortOrder": null,
+    "defaultViewModus": 3,
+    "visibility": 1,
+    "settings": null,
+    "created_at": "2022-11-29T15:20:27.448Z",
+    "updated_at": "2023-01-09T00:36:13.798Z",
+    "deprecated_at": null,
+    "scheduled_for_deletion_at": null,
+    "frozen_at": null,
+    "created_by": 587365,
+    "resourceTags": [
+      {
+        "uuid": "9da7cb91-1904-4fdd-bed4-ea06d7bab143",
+        "tag": "list",
+        "appType": "todos",
+        "isOwner": true,
+        "created_by": 587365,
+        "created_at": "2022-11-29T15:20:27.448Z"
+      }
+    ],
+    "isPublic": false
+  },
+  "elements": [
+    {
+      "id": 33713274,
+      "shortId": "WsaCKWlAqL",
+      "uuid": "d0376731-b525-4a40-814f-fea05a45a982",
+      "name": "Title",
+      "description": null,
+      "businessData": {
+        "text": "",
+        "searchText": "",
+        "textType": "plain"
+      },
+      "elementData": {
+        "placeholder": ""
+      },
+      "isPrimary": true,
+      "sortOrder": 5,
+      "created_at": "2022-11-29T15:20:27.944Z",
+      "updated_at": "2022-11-29T15:20:27.448Z",
+      "deprecated_at": null,
+      "elementcategory": 1,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": [
+        {
+          "uuid": "143a2d62-f611-4ec9-a4c0-a45545ed4416",
+          "tag": "title",
+          "appType": "todos",
+          "isOwner": false,
+          "created_by": 587365,
+          "created_at": "2022-11-29T15:20:27.448Z"
+        }
+      ]
+    },
+    {
+      "id": 33713270,
+      "shortId": "pdkArqexQp",
+      "uuid": "7669f25d-58bc-4594-b549-c63e9bd9c7b7",
+      "name": "Created",
+      "description": null,
+      "businessData": {},
+      "elementData": {},
+      "isPrimary": false,
+      "sortOrder": 1,
+      "created_at": "2022-11-29T15:20:27.884Z",
+      "updated_at": "2022-11-29T15:20:27.905Z",
+      "deprecated_at": null,
+      "elementcategory": 8,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": []
+    },
+    {
+      "id": 33713271,
+      "shortId": "ypy0RV5864",
+      "uuid": "2e97dcc0-5ace-44fd-b97e-9585c5e9ac0a",
+      "name": "Last Updated",
+      "description": null,
+      "businessData": {},
+      "elementData": {},
+      "isPrimary": false,
+      "sortOrder": 2,
+      "created_at": "2022-11-29T15:20:27.884Z",
+      "updated_at": "2022-11-29T15:20:27.905Z",
+      "deprecated_at": null,
+      "elementcategory": 9,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": []
+    },
+    {
+      "id": 33713272,
+      "shortId": "4uXkFMPy1i",
+      "uuid": "c63b62ad-2dc1-4ff2-809a-e4f5c323b1e2",
+      "name": "Created By",
+      "description": null,
+      "businessData": {},
+      "elementData": {
+        "listUsers": null
+      },
+      "isPrimary": false,
+      "sortOrder": 3,
+      "created_at": "2022-11-29T15:20:27.885Z",
+      "updated_at": "2022-11-29T15:20:27.906Z",
+      "deprecated_at": null,
+      "elementcategory": 11,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": []
+    },
+    {
+      "id": 33713273,
+      "shortId": "OPthByZ0Oe",
+      "uuid": "df78fd7a-f5a5-41f7-bde2-68b26d2c3f86",
+      "name": "Last Updated By",
+      "description": null,
+      "businessData": {},
+      "elementData": {
+        "listUsers": null
+      },
+      "isPrimary": false,
+      "sortOrder": 4,
+      "created_at": "2022-11-29T15:20:27.885Z",
+      "updated_at": "2022-11-29T15:20:27.906Z",
+      "deprecated_at": null,
+      "elementcategory": 12,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": []
+    },
+    {
+      "id": 33713275,
+      "shortId": "HwqGLDjYHV",
+      "uuid": "6ef911b8-20ea-48e2-af6d-d1101fabab25",
+      "name": "Stage",
+      "description": null,
+      "businessData": {
+        "categories": [],
+        "categories_sort": []
+      },
+      "elementData": {
+        "multiple": false,
+        "allowInlineCreation": true,
+        "predefinedCategories": [
+          {
+            "id": 12617097,
+            "shortId": "F81NVkVZLe",
+            "uuid": "81e8b921-9b3e-49fc-907c-d1f9f0a26172",
+            "name": "To-Do",
+            "colorHex": "#0089d1",
+            "originProvider": null,
+            "originData": null,
+            "sortOrder": 0,
+            "elementId": 33713275,
+            "listId": 3004736,
+            "created_at": "2022-11-29T15:20:27.978Z",
+            "updated_at": "2022-11-29T15:20:27.448Z",
+            "deprecated_at": null,
+            "origin_created_at": null,
+            "origin_updated_at": null,
+            "origin_deprecated_at": null,
+            "resourceTags": [
+              {
+                "uuid": "2b39d606-e214-44c7-9a79-3124c2d8a188",
+                "tag": "todo",
+                "appType": "todos",
+                "isOwner": true,
+                "created_by": 587365,
+                "created_at": "2022-11-29T15:20:27.448Z"
+              }
+            ]
+          },
+          {
+            "id": 12617098,
+            "shortId": "4Sk_tMySDF",
+            "uuid": "e320fd5f-2999-46d7-896b-fce37d7ed03a",
+            "name": "Done",
+            "colorHex": "#3ba744",
+            "originProvider": null,
+            "originData": null,
+            "sortOrder": 1,
+            "elementId": 33713275,
+            "listId": 3004736,
+            "created_at": "2022-11-29T15:20:27.978Z",
+            "updated_at": "2022-11-29T15:20:27.448Z",
+            "deprecated_at": null,
+            "origin_created_at": null,
+            "origin_updated_at": null,
+            "origin_deprecated_at": null,
+            "resourceTags": [
+              {
+                "uuid": "528dbddf-70d0-4e2f-9199-2c1117acece3",
+                "tag": "done",
+                "appType": "todos",
+                "isOwner": true,
+                "created_by": 587365,
+                "created_at": "2022-11-29T15:20:27.448Z"
+              }
+            ]
+          }
+        ]
+      },
+      "isPrimary": false,
+      "sortOrder": 6,
+      "created_at": "2022-11-29T15:20:27.944Z",
+      "updated_at": "2022-11-29T15:20:27.448Z",
+      "deprecated_at": null,
+      "elementcategory": 6,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": [
+        {
+          "uuid": "e5d43960-6e8b-47cf-9a3c-4a7837129427",
+          "tag": "stage",
+          "appType": "todos",
+          "isOwner": false,
+          "created_by": 587365,
+          "created_at": "2022-11-29T15:20:27.448Z"
+        }
+      ]
+    },
+    {
+      "id": 33713276,
+      "shortId": "oJ2n7xkCqx",
+      "uuid": "a3c67579-d786-409e-8bbc-4e36c783663d",
+      "name": "Notes",
+      "description": null,
+      "businessData": {
+        "text": "",
+        "searchText": "",
+        "textType": "plain"
+      },
+      "elementData": {
+        "placeholder": ""
+      },
+      "isPrimary": false,
+      "sortOrder": 7,
+      "created_at": "2022-11-29T15:20:27.944Z",
+      "updated_at": "2022-11-29T15:20:27.448Z",
+      "deprecated_at": null,
+      "elementcategory": 1,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": [
+        {
+          "uuid": "9808414d-b22c-49e0-b8a6-8ca4ae367546",
+          "tag": "notes",
+          "appType": "todos",
+          "isOwner": false,
+          "created_by": 587365,
+          "created_at": "2022-11-29T15:20:27.448Z"
+        }
+      ]
+    },
+    {
+      "id": 33713277,
+      "shortId": "OYe51DWYoA",
+      "uuid": "76932e9a-8cc5-4e98-bd40-a3eee223698b",
+      "name": "Due Date",
+      "description": null,
+      "businessData": {
+        "date": null,
+        "endDate": null,
+        "hasTime": false,
+        "duration": null
+      },
+      "elementData": {
+        "highlightOverdue": true
+      },
+      "isPrimary": false,
+      "sortOrder": 8,
+      "created_at": "2022-11-29T15:20:27.945Z",
+      "updated_at": "2022-11-29T15:20:27.448Z",
+      "deprecated_at": null,
+      "elementcategory": 4,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": [
+        {
+          "uuid": "f7e875ba-6c85-41fd-98c2-765da6d1ad43",
+          "tag": "dueDate",
+          "appType": "todos",
+          "isOwner": false,
+          "created_by": 587365,
+          "created_at": "2022-11-29T15:20:27.448Z"
+        }
+      ]
+    },
+    {
+      "id": 33713278,
+      "shortId": "NOemgHPHHf",
+      "uuid": "8a47783c-acbe-4610-9b19-b6d6bf3f77cc",
+      "name": "Assigned To",
+      "description": null,
+      "businessData": {
+        "persons": [],
+        "persons_sort": []
+      },
+      "elementData": {
+        "multiple": true,
+        "listUsers": null
+      },
+      "isPrimary": false,
+      "sortOrder": 9,
+      "created_at": "2022-11-29T15:20:27.945Z",
+      "updated_at": "2022-11-29T15:20:27.448Z",
+      "deprecated_at": null,
+      "elementcategory": 14,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": [
+        {
+          "uuid": "b30c524d-ef6e-4971-aba5-2a11adba07ff",
+          "tag": "assignments",
+          "appType": "todos",
+          "isOwner": false,
+          "created_by": 587365,
+          "created_at": "2022-11-29T15:20:27.448Z"
+        }
+      ]
+    },
+    {
+      "id": 33713279,
+      "shortId": "FmxJ_c7FXp",
+      "uuid": "10566746-0ea3-4a00-96d0-ea5f5a07e397",
+      "name": "Attachments",
+      "description": null,
+      "businessData": {
+        "files": [],
+        "filesData": []
+      },
+      "elementData": {},
+      "isPrimary": false,
+      "sortOrder": 10,
+      "created_at": "2022-11-29T15:20:27.945Z",
+      "updated_at": "2022-11-29T15:20:27.448Z",
+      "deprecated_at": null,
+      "elementcategory": 15,
+      "listId": 3004736,
+      "isAutoCreated": false,
+      "visible": true,
+      "displayName": null,
+      "resourceTags": [
+        {
+          "uuid": "0d64ff3b-1734-4eb3-99b6-f8f8b5823101",
+          "tag": "files",
+          "appType": "todos",
+          "isOwner": false,
+          "created_by": 587365,
+          "created_at": "2022-11-29T15:20:27.448Z"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "shortId": "Gpu2OaEc9",
+      "uuid": "4d8b3a5d-ade5-4bd2-8976-af7fb9be47d6",
+      "created_at": "2023-11-28T21:03:46.457Z",
+      "updated_at": "2023-11-28T21:04:23.675Z",
+      "deprecated_at": null,
+      "origin_created_at": null,
+      "created_by": 587365,
+      "updated_by": 587365,
+      "deprecated_by": null,
+      "displayString": "Example task with all relevant fields",
+      "sortOrder": "4",
+      "listId": 3004736,
+      "comment_count": 0,
+      "checklists": [
+        {
+          "uuid": "afd45e5b-d46c-4eaf-ab11-f4acb7cfd4e7",
+          "name": "Checklist",
+          "shouldCheckedItemsBeHidden": false,
+          "items": [
+            {
+              "text": "Subtask 1",
+              "checked": false
+            },
+            {
+              "text": "Subtask 2",
+              "checked": false
+            },
+            {
+              "text": "Subtask 3",
+              "checked": false
+            }
+          ]
+        }
+      ],
+      "d0376731-b525-4a40-814f-fea05a45a982_text": "Example task with all relevant fields",
+      "d0376731-b525-4a40-814f-fea05a45a982_searchText": "Example task with all relevant fields",
+      "d0376731-b525-4a40-814f-fea05a45a982_textType": "plain",
+      "6ef911b8-20ea-48e2-af6d-d1101fabab25_categories": [],
+      "a3c67579-d786-409e-8bbc-4e36c783663d_text": "I added some notes here.",
+      "a3c67579-d786-409e-8bbc-4e36c783663d_searchText": "I added some notes here.",
+      "a3c67579-d786-409e-8bbc-4e36c783663d_textType": "plain",
+      "76932e9a-8cc5-4e98-bd40-a3eee223698b_date": "2024-03-31",
+      "76932e9a-8cc5-4e98-bd40-a3eee223698b_endDate": null,
+      "76932e9a-8cc5-4e98-bd40-a3eee223698b_hasTime": false,
+      "76932e9a-8cc5-4e98-bd40-a3eee223698b_duration": null,
+      "8a47783c-acbe-4610-9b19-b6d6bf3f77cc_persons": [],
+      "10566746-0ea3-4a00-96d0-ea5f5a07e397_files": [],
+      "6ef911b8-20ea-48e2-af6d-d1101fabab25_categories_sort": [],
+      "10566746-0ea3-4a00-96d0-ea5f5a07e397_filesData": [],
+      "8a47783c-acbe-4610-9b19-b6d6bf3f77cc_persons_sort": [],
+      "created_by_displayname": "Alberto de Murga",
+      "updated_by_displayname": "Alberto de Murga",
+      "occurrence": null
+    }
+  ]
+}
