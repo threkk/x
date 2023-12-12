@@ -43,7 +43,9 @@ export function makeProject(title: string, items: ToDo[]): Project {
   };
 }
 
-export function thingify(projects: Project[]): string {
-  const encoded = projects.map(p => encodeURI(JSON.stringify(p)));
-  return `things:///json?data=[${encoded.join(',')}]`;
+export function thingify(projects: Project[], onlyJSON: boolean): string {
+  const payload = `[${projects.map(p => JSON.stringify(p)).join(',')}]`;
+  if (onlyJSON) return payload;
+  const encoded = encodeURIComponent(payload)
+  return `things:///json?data=${encoded}`;
 }
